@@ -1,20 +1,20 @@
 import {Routes, Route, Link} from 'react-router-dom';
 import Home from './views/Home';
-import proyects from './views/projects';
-import {studies, experiences} from './views/resume';
+import Projects from './views/projects';
+import Resume from './views/resume';
 
 function App() {
     return (
         <>
         <div>
             <Link to="/">Home</Link>
-            <Link to="/proyects">Proyects</Link>
+            <Link to="/projects">Proyects</Link>
             <Link to="/resume">Resume</Link>
         </div>
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/proyects" element={<proyects />} />
-            <Route path="/resume" element={<resume />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/resume" element={<Resume />} />
         </Routes>
         </>
     );
