@@ -11,6 +11,12 @@ const studies = [
     institution: 'Escuela de Educación Técnica N° 4',
     date: '2010 - 2015',
   },
+  {
+    id: 3,
+    title: 'Ingeniero de software',
+    institution: 'Udemy',
+    date: '2018',
+  },
 ];
 
 const experiences = [
@@ -25,6 +31,12 @@ const experiences = [
     title: 'Desarrollador Fullstack',
     company: 'Freelance',
     date: '2019 - 2021',
+  },
+  {
+    id: 3,
+    title: 'Desarrollador Backend',
+    company: 'Take me back to the end',
+    date: '2021 - 2026',
   },
 ];
 
