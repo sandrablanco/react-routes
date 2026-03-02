@@ -7,9 +7,11 @@ function App() {
     return (
         <>
         <div>
+            <nav style={{ display: "flex", gap: "20px" }}>
             <Link to="/">Home</Link>
-            <Link to="/projects">Proyects</Link>
+            <Link to="/projects">Projects</Link>
             <Link to="/resume">Resume</Link>
+            </nav>
         </div>
         <Routes>
             <Route path="/" element={<Home />} />
